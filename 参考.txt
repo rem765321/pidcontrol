@@ -1,0 +1,10 @@
+https://blog.csdn.net/yunddun/article/details/107720644
+
+https://blog.csdn.net/qq_26657001/article/details/83147510
+
+https://blog.csdn.net/as480133937/article/details/89508034
+
+为什么会出现__pycache__文件夹？
+python解释器会将 *.py 脚本文件进行编译，并将编译结果保存到__pycache__目录中。
+下次再执行工程时，若解释器发现这个 *.py 脚本没有修改过，就会跳过编译这一步，直接运行以前生成的保存在 __pycache__文件夹里的 *.pyc 文件。
+这样工程较大时就可以大大缩短项目运行前的准备时间；如果你只需执行一个小工程，没关系 忽略这个文件夹就行。

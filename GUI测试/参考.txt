@@ -1,0 +1,12 @@
+pyuic5 - o 目标文件名.py 源文件名.ui
+
+self.ui.textEdit.toPlainText())# toPlainText()返回多行文本框内容
+self.ui.textEdit_kp.setText(str(result)) #setText  set文本框内容
+
+在3.0以上python中，input()函数，通过键盘输入返回值的类型是字符串，要用int、float等进行强制类型转换。
+因为，input()函数是默认输入字符串，不管你输入的数字还是其他什么。。。
+
+下拉框
+currentText()获得文本
+currentIndex()获得下标
+self.comboBox.currentIndexChanged.connect() comboBox的事件选中函数
